@@ -1,4 +1,4 @@
-Here is a summary of Chapter 7, "Running Stateful Applications with Kubernetes," from *Mastering Kubernetes, Fourth Edition*:
+Here is a summary of Chapter 7, "Running Stateful Applications with Kubernetes"
 
 ### **Stateful versus Stateless Applications in Kubernetes**
 - **Stateless Applications**: These applications do not manage or persist data within the cluster. Data is often stored in memory or outside the cluster, and containers accessing it are interchangeable.

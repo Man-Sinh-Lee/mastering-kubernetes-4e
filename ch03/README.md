@@ -1,4 +1,4 @@
-Chapter 3, "High Availability and Reliability," from *Mastering Kubernetes, Fourth Edition*:
+Chapter 3, "High Availability and Reliability,"
 
 ### **High Availability Concepts**
 1. **Redundancy**: Ensures backup components are available when critical ones fail. Kubernetes achieves this via replication controllers, replica sets, and running critical components like `etcd` and the API server across multiple nodes.

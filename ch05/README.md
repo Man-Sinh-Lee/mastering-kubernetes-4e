@@ -1,4 +1,4 @@
-Here is a summary of Chapter 5, "Using Kubernetes Resources in Practice," from *Mastering Kubernetes, Fourth Edition*:
+Here is a summary of Chapter 5, "Using Kubernetes Resources in Practice"
 
 ### **Designing the Hue Platform**
 - **Defining the scope of Hue**: Hue is envisioned as a large-scale platform that assists users with tasks across multiple domains (e.g., smart reminders, notifications, social networks, finance, smart homes). It will store a vast amount of data, interact with various external services, and respond to events.

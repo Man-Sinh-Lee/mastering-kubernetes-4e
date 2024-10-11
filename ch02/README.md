@@ -1,4 +1,4 @@
-Chapter 2, "Creating Kubernetes Clusters," from *Mastering Kubernetes, Fourth Edition*:
+Chapter 2, "Creating Kubernetes Clusters,"
 
 ### **Getting Ready for Your First Cluster**
 Before creating a Kubernetes cluster, you need essential tools such as Docker and `kubectl`. One option is using **Rancher Desktop**, which installs Docker, `kubectl`, Helm, and more. Rancher Desktop can be installed using Homebrew for macOS and Chocolatey for Windows .

@@ -1,4 +1,4 @@
-Here is a summary of Chapter 10, "Exploring Kubernetes Networking," from *Mastering Kubernetes, Fourth Edition*:
+Here is a summary of Chapter 10, "Exploring Kubernetes Networking"
 
 ### **Understanding the Kubernetes Networking Model**
 - **Intra-pod Communication**: Containers within the same pod share the same network namespace and can communicate using `localhost`.

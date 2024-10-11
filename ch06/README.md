@@ -1,4 +1,4 @@
-Here is a summary of Chapter 6, "Using Kubernetes Resources in Practice," from *Mastering Kubernetes, Fourth Edition*:
+Here is a summary of Chapter 6, "Using Kubernetes Resources in Practice"
 
 ### **Persistent Volumes Walk-Through**
 - **Understanding Volumes**: Kubernetes supports a variety of volume types, which allow containers to persist data. Volumes such as `emptyDir` for intra-pod communication, `HostPath` for node-local storage, and **Local Volumes** for durable node-level storage are essential in different scenarios.

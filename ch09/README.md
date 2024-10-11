@@ -1,4 +1,4 @@
-Chapter 9, "Packaging Applications," from *Mastering Kubernetes, Fourth Edition*:
+Chapter 9, "Packaging Applications"
 
 ### **Understanding Helm**
 - **Motivation for Helm**: Helm simplifies deploying Kubernetes applications by packaging multiple Kubernetes resources into a single unit, known as a **Helm chart**. It manages the complexity of Kubernetes configurations and deployment by providing version control, templating, and easy rollbacks.

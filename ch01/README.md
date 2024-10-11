@@ -1,4 +1,4 @@
-Chapter 1, "Understanding Kubernetes Architecture" from *Mastering Kubernetes, Fourth Edition*:
+Chapter 1, "Understanding Kubernetes Architecture"
 
 ### **What is Kubernetes?**
 Kubernetes is an open-source platform designed for automating deployment, scaling, and management of containerized applications. Its core functionalities include scheduling containerized workloads across infrastructure, handling application health, replicating instances, and scaling resources. Kubernetes is highly extensible and integrates seamlessly with cloud providers, but it's not a Platform as a Service (PaaS).
