@@ -1,4 +1,4 @@
-Here is a detailed summary of Chapter 17, "Running Kubernetes in Production," from *Mastering Kubernetes, Fourth Edition*:
+Here is a detailed summary of Chapter 18, "Running Kubernetes in Production," from *Mastering Kubernetes, Fourth Edition*:
 
 ### **Understanding Managed Kubernetes in the Cloud**
 Managed Kubernetes is a service provided by cloud providers (e.g., AWS, GCP, Azure) that simplifies deploying and managing Kubernetes clusters. It abstracts away much of the infrastructure management, allowing organizations to focus on their applications. Key benefits include automatic scaling, high availability, and integration with cloud services like databases and networking.
