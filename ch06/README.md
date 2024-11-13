@@ -1,6 +1,7 @@
-Here is a summary of Chapter 6, "Using Kubernetes Resources in Practice"
+### *** Chapter 6 Using Kubernetes Resources in Practice ***
 
 ### **Persistent Volumes Walk-Through**
+
 - **Understanding Volumes**: Kubernetes supports a variety of volume types, which allow containers to persist data. Volumes such as `emptyDir` for intra-pod communication, `HostPath` for node-local storage, and **Local Volumes** for durable node-level storage are essential in different scenarios.
 - **Provisioning Persistent Volumes**: Persistent volumes can be provisioned either statically (created ahead of time by an administrator) or dynamically (on-demand based on claims). Kubernetes allows provisioning persistent volumes using both methods.
 
@@ -21,7 +22,7 @@ Kubernetes integrates with public cloud providers, offering several storage opti
 - **Azure**: Data Disks and Azure Files provide flexible, scalable storage options for applications.
 
 ### **GlusterFS and Ceph Volumes**
-- **GlusterFS**: Provides a distributed file system that exposes storage across multiple nodes. Kubernetes manages GlusterFS through services and endpoints【15:7†source】.
+- **GlusterFS**: Provides a distributed file system that exposes storage across multiple nodes. Kubernetes manages GlusterFS through services and endpoints.
 - **Ceph**: Offers block, object, and file storage through the RADOS system, providing automatic replication and self-healing. Ceph integration in Kubernetes is managed via the **Rook** operator.
 
 ### **Integrating Enterprise Storage**

@@ -1,10 +1,10 @@
-Chapter 12, *Serverless Computing on Kubernetes*
+### *** Chapter 12 Serverless Computing on Kubernetes ***
 
 ### **Understanding Serverless Computing**
-Serverless computing allows developers to focus on writing code without worrying about infrastructure provisioning, scaling, or maintenance. The term "serverless" is a bit misleading because servers are still involved; however, their management is abstracted away from the user. The serverless model removes the need for capacity planning and infrastructure management, providing resources as needed and billing only for usage【6†source】.
+Serverless computing allows developers to focus on writing code without worrying about infrastructure provisioning, scaling, or maintenance. The term "serverless" is a bit misleading because servers are still involved; however, their management is abstracted away from the user. The serverless model removes the need for capacity planning and infrastructure management, providing resources as needed and billing only for usage.
 
 ### **Running Long-Running Services on Serverless Infrastructure**
-Long-running services, the backbone of distributed systems, can benefit from a serverless model. Serverless Kubernetes services can run continuously and scale up or down based on demand. They maintain state, handle connections, and expose endpoints like HTTP or gRPC. These services are always running and are ideal for environments that handle fluctuating traffic【6†source】.
+Long-running services, the backbone of distributed systems, can benefit from a serverless model. Serverless Kubernetes services can run continuously and scale up or down based on demand. They maintain state, handle connections, and expose endpoints like HTTP or gRPC. These services are always running and are ideal for environments that handle fluctuating traffic.
 
 ### **Running Functions as a Service (FaaS) on Serverless Infrastructure**
 FaaS allows code to run in response to specific events. This model is useful for workloads that don't need constant uptime, as the system scales functions down to zero when they're idle. FaaS minimizes resource consumption by automatically scaling functions based on demand. It exposes a single endpoint and can trigger based on events such as HTTP requests or scheduled jobs.

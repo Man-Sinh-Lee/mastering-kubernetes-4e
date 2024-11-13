@@ -1,4 +1,4 @@
-Chapter 13, "Monitoring Kubernetes Clusters"
+### ***  Chapter 13 Monitoring Kubernetes Clusters ***
 
 ### **Understanding Observability**
 Observability is the practice of understanding the state of a system based on its outputs, specifically focusing on logs, metrics, distributed traces, and errors. These tools help monitor and maintain system health, providing insights for debugging and system optimization. Observability ensures that the state and behavior of systems can be effectively monitored over time .

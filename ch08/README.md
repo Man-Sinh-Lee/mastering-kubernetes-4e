@@ -1,4 +1,4 @@
-Chapter 8, "Deploying and Updating Applications"
+### *** Chapter 8 Deploying and Updating Applications ***
 
 ### **Live Cluster Updates**
 - **Rolling Updates**: Gradual updates to ensure both current and new versions of a service run concurrently. This is easier if components are backward-compatible, and Kubernetes' `Deployment` resource simplifies managing rolling updates. Complex deployments may require compatibility layers when service dependencies are involved.

@@ -1,4 +1,4 @@
-Chapter 1, "Understanding Kubernetes Architecture"
+### ***  Chapter 1 Understanding Kubernetes Architecture ***
 
 ### **What is Kubernetes?**
 Kubernetes is an open-source platform designed for automating deployment, scaling, and management of containerized applications. Its core functionalities include scheduling containerized workloads across infrastructure, handling application health, replicating instances, and scaling resources. Kubernetes is highly extensible and integrates seamlessly with cloud providers, but it's not a Platform as a Service (PaaS).
@@ -13,12 +13,14 @@ Kubernetes does not provide:
 
 ### **Understanding Container Orchestration**
 Kubernetes orchestrates containers across physical or virtual machines, efficiently allocating resources and replacing failed containers. It supports various infrastructures:
+
 - **Physical Machines**: Real hardware with compute and storage resources.
 - **Virtual Machines**: Virtual environments hosted on physical machines.
 - **Containers**: Lightweight environments, encapsulating applications, offering portability and consistency across different environments.
 - **Cattle vs. Pets**: In large systems, Kubernetes treats nodes as "cattle" (interchangeable units) rather than "pets" (unique, irreplaceable servers), allowing for scalable management.
 
 ### **Kubernetes Concepts**
+
 - **Node**: A host (physical or virtual) that runs containers managed by Kubernetes.
 - **Cluster**: A group of nodes running applications.
 - **Control Plane**: The central management system (API server, scheduler, controller manager) that orchestrates workloads and maintains the global state.
@@ -31,6 +33,7 @@ Kubernetes orchestrates containers across physical or virtual machines, efficien
 - **Namespace**: Provides scope for names, allowing multiple virtual clusters within a physical cluster.
 
 ### **Distributed Systems Design Patterns**
+
 - **Sidecar Pattern**: A helper container that runs alongside the primary application container.
 - **Ambassador Pattern**: Manages interactions between services, acting as a proxy.
 - **Adapter Pattern**: Adapts external systems to the Kubernetes environment.
@@ -40,6 +43,7 @@ Kubernetes orchestrates containers across physical or virtual machines, efficien
 The Kubernetes API is organized into multiple categories based on resource types, enabling efficient management of workloads and infrastructure. 
 
 ### **Kubernetes Components**
+
 - **Control Plane Components**:
   - **API Server**: Handles communication and provides the interface to the cluster.
   - **etcd**: The key-value store for cluster data.

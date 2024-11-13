@@ -1,6 +1,7 @@
-Chapter 11, *Running Kubernetes on Multiple Clusters*
+### *** Chapter 11 Running Kubernetes on Multiple Clusters ***
 
-### **Stretched Kubernetes Clusters versus Multi-Cluster Kubernetes**
+### **Stretched Kubernetes Clusters versus Multi-Cluster Kubernetes**:
+
 - **Stretched Kubernetes Clusters**: This refers to running a single Kubernetes cluster across multiple data centers or regions. 
   - **Pros**: Simplifies management by treating multiple regions as one cluster.
   - **Cons**: Latency between nodes across regions can be high, increasing the risk of inconsistency and downtime.

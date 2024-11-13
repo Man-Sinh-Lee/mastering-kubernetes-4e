@@ -1,4 +1,4 @@
-Here is a summary of Chapter 4, "Securing Kubernetes,"
+### *** Chapter 4 Securing Kubernetes ***
 
 ### **Understanding Kubernetes Security Challenges**
 - **Node challenges**: A compromised node can lead to control over workloads and access to secrets. Attack vectors include physical access or misuse of debugging tools.

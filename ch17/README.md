@@ -1,6 +1,7 @@
-Chapter 17, *Running Kubernetes in Production*, covers essential practices and strategies for managing Kubernetes in large-scale, production environments.
+### *** Chapter 17 Running Kubernetes in Production ***
 
-### **Understanding Managed Kubernetes in the Cloud**
+### **Understanding Managed Kubernetes in the Cloud**:
+
 - Managed Kubernetes services, such as AWS EKS, Azure AKS, and Google GKE, allow organizations to deploy containerized applications without the hassle of maintaining the underlying infrastructure. These platforms integrate with cloud services (e.g., storage, security) to simplify operations.
 - Cloud providers offer deep integration with Kubernetes using Container Networking Interface (CNI) and Cloud Controller Interface (CCI), making the service highly optimized for cloud deployments.
 

@@ -1,6 +1,7 @@
-Chapter 9, "Packaging Applications"
+### *** Chapter 9 Packaging Applications **
 
 ### **Understanding Helm**
+
 - **Motivation for Helm**: Helm simplifies deploying Kubernetes applications by packaging multiple Kubernetes resources into a single unit, known as a **Helm chart**. It manages the complexity of Kubernetes configurations and deployment by providing version control, templating, and easy rollbacks.
 - **Helm 3 Architecture**: Helm 3 has improved security and flexibility over Helm 2 by removing the Tiller component, which previously handled cluster-wide access. Now, Helm interacts directly with the Kubernetes API, reducing security risks.
   - **Helm Release Secrets**: Helm stores release information as secrets within Kubernetes, ensuring secure tracking of deployed charts.
